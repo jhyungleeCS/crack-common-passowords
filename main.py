@@ -1,4 +1,4 @@
-from password import create_password, hash_it
+from randompass import create_password, hash_it
 
 print('Create a random password')
 password = create_password()
@@ -12,3 +12,5 @@ def writing_password():
         file.write(hashed_password + "\n")
 
 writing_password()
+
+
